@@ -15,7 +15,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Save" />
-        <EditText
+        <view
+            class="com.gogbuehi.android.cc2.utilities.JEditText"
         android:id="@+id/editText1"
         android:layout_width="800px"
         android:layout_height="fill_parent"
@@ -27,7 +28,7 @@
 		
         <requestFocus />
         
-    </EditText>
+    </view>
      <Button
             android:id="@+id/button2"
             android:layout_alignParentTop="true"
